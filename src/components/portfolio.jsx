@@ -2,7 +2,7 @@ import React from 'react'
 
 const Portfolio = () => {
   return (
-    <div>Portfolio</div>
+    <div id='portfolio' className='h-screen scroll-smooth'>Portfolio</div>
   )
 }
 

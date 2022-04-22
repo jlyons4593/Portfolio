@@ -1,8 +1,8 @@
 import Header from'./components/header'
-// import Contact from'./components/contact'
+import Contact from'./components/contact'
 import Nav from'./components/nav'
-// import Portfolio from'./components/portfolio'
-// import Footer from './components/footer'
+import Portfolio from'./components/portfolio'
+import Footer from './components/footer'
 import About from './components/about'
 import React from 'react'
 import './index.css'
@@ -10,13 +10,13 @@ import './index.css'
 const app = () => {
   return (
     <>
-    <div className=' bg-green'>
+    <div>
     <Header/>
     <Nav/>
     <About/>
-    {/* <Portfolio/> */}
-    {/* <Contact/> */}
-    {/* <Footer/>  */}
+    <Portfolio/>
+    <Contact/>
+    <Footer/> 
     </div>
     </>
   )
